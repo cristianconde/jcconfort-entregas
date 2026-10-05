@@ -1,0 +1,227 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-label: var(--font-barlow-semi), var(--font-barlow), ui-sans-serif, sans-serif;
+  --font-display: var(--font-barlow-condensed), var(--font-barlow), ui-sans-serif, sans-serif;
+  --font-heading: var(--font-display);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  /* Pass world: ink panels, the single alert color, the gray ground. */
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-alert: var(--alert);
+  --color-alert-foreground: var(--alert-foreground);
+  --color-alert-text: var(--alert-text);
+  --color-alert-soft: var(--alert-soft);
+  --color-panel: var(--panel);
+  --color-rule: var(--rule);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/*
+ * Light only: the app is used under warehouse strip lights and office
+ * daylight, mostly on phones. One color, one law:
+ *   blue  = JC Confort, the app bar and every primary action
+ *   red   = something is wrong (vencida, urgente) — never decoration
+ */
+:root {
+  --background: #e9ecf1;
+  --foreground: #0e1522;
+  --card: #ffffff;
+  --card-foreground: #0e1522;
+  --popover: #ffffff;
+  --popover-foreground: #0e1522;
+  --primary: #0d409b;
+  --primary-foreground: #ffffff;
+  --secondary: #dde2ea;
+  --secondary-foreground: #0e1522;
+  --muted: #eef1f5;
+  --muted-foreground: #4a5467;
+  --accent: #e3eaf6;
+  --accent-foreground: #0d409b;
+  --destructive: #c8031c;
+  --border: #d3d9e2;
+  --input: #8b95a7;
+  --ring: #0d409b;
+  --ink: #0e1522;
+  --ink-foreground: #ffffff;
+  --alert: #e00420;
+  --alert-foreground: #ffffff;
+  --alert-text: #c8031c;
+  --alert-soft: #fde8ea;
+  --panel: #dde2ea;
+  --rule: #c3cad6;
+  --chart-1: #0d409b;
+  --chart-2: #4a5467;
+  --chart-3: #8b95a7;
+  --chart-4: #c3cad6;
+  --chart-5: #e00420;
+  --radius: 0.375rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0e1522;
+  --sidebar-primary: #0d409b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e3eaf6;
+  --sidebar-accent-foreground: #0d409b;
+  --sidebar-border: #d3d9e2;
+  --sidebar-ring: #0d409b;
+  --tabbar-height: 4.25rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-color: var(--rule) transparent;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    caret-color: var(--primary);
+  }
+  ::selection {
+    background: #c7d6f2;
+    color: var(--foreground);
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  a {
+    text-underline-offset: 0.2em;
+  }
+}
+
+@layer components {
+  /* Field label on a pass: small caps-style, semi-condensed, never tiny. */
+  .pass-label {
+    font-family: var(--font-label);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted-foreground);
+    line-height: 1.2;
+  }
+
+  /* Condensed figure: dates, counts, codes. */
+  .pass-figure {
+    font-family: var(--font-display);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+  }
+
+  /* Page title, board header voice. */
+  .page-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.75rem, 1.4rem + 1.4vw, 2.25rem);
+    line-height: 1.05;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+  }
+
+  /*
+   * Tear line between a pass's head and its stub: a dashed rule with a
+   * semicircular notch cut into each edge. The notches take the ground color
+   * through --notch so the pass reads as punched out of the page.
+   */
+  .pass-tear {
+    position: relative;
+    height: 0;
+    border-top: 2px dashed var(--rule);
+    margin-inline: 0.875rem;
+  }
+  .pass-tear::before,
+  .pass-tear::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--notch, var(--background));
+    box-shadow: inset 0 0 0 1px var(--border);
+  }
+  .pass-tear::before {
+    left: calc(-0.875rem - 9px);
+    clip-path: inset(0 0 0 50%);
+  }
+  .pass-tear::after {
+    right: calc(-0.875rem - 9px);
+    clip-path: inset(0 50% 0 0);
+  }
+
+  /* A board lane on phones is one screen wide; the next peeks in. */
+  .lane-rail {
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+  }
+  @media (max-width: 39.99rem) {
+    .lane-rail {
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 1rem;
+      scrollbar-width: none;
+    }
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

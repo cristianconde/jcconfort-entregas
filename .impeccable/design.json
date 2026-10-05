@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T19:43:42.941076+00:00",
+  "title": "Design System: JC Confort Entregas",
+  "extensions": {
+    "colorMeta": {
+      "jc-blue": {
+        "role": "primary",
+        "displayName": "JC Blue",
+        "canonical": "oklch(38.9% 0.155 262)",
+        "tonalRamp": [
+          "oklch(15% 0.15 262)",
+          "oklch(25% 0.15 262)",
+          "oklch(38% 0.15 262)",
+          "oklch(50% 0.15 262)",
+          "oklch(62% 0.15 262)",
+          "oklch(74% 0.15 262)",
+          "oklch(86% 0.15 262)",
+          "oklch(95% 0.15 262)"
+        ]
+      },
+      "jc-blue-deep": {
+        "role": "primary",
+        "displayName": "JC Blue Deep",
+        "canonical": "oklch(34.6% 0.14 262)",
+        "tonalRamp": [
+          "oklch(15% 0.14 262)",
+          "oklch(25% 0.14 262)",
+          "oklch(38% 0.14 262)",
+          "oklch(50% 0.14 262)",
+          "oklch(62% 0.14 262)",
+          "oklch(74% 0.14 262)",
+          "oklch(86% 0.14 262)",
+          "oklch(95% 0.14 262)"
+        ]
+      },
+      "jc-blue-wash": {
+        "role": "primary",
+        "displayName": "JC Blue Wash",
+        "canonical": "oklch(93.5% 0.02 262)",
+        "tonalRamp": [
+          "oklch(15% 0.02 262)",
+          "oklch(25% 0.02 262)",
+          "oklch(38% 0.02 262)",
+          "oklch(50% 0.02 262)",
+          "oklch(62% 0.02 262)",
+          "oklch(74% 0.02 262)",
+          "oklch(86% 0.02 262)",
+          "oklch(95% 0.02 262)"
+        ]
+      },
+      "alert-red": {
+        "role": "secondary",
+        "displayName": "Alert Red",
+        "canonical": "oklch(58% 0.235 27)",
+        "tonalRamp": [
+          "oklch(15% 0.2 27)",
+          "oklch(25% 0.2 27)",
+          "oklch(38% 0.2 27)",
+          "oklch(50% 0.2 27)",
+          "oklch(62% 0.2 27)",
+          "oklch(74% 0.2 27)",
+          "oklch(86% 0.2 27)",
+          "oklch(95% 0.2 27)"
+        ]
+      },
+      "alert-red-text": {
+        "role": "secondary",
+        "displayName": "Alert Red Text",
+        "canonical": "oklch(52% 0.21 27)",
+        "tonalRamp": [
+          "oklch(15% 0.19 27)",
+          "oklch(25% 0.19 27)",
+          "oklch(38% 0.19 27)",
+          "oklch(50% 0.19 27)",
+          "oklch(62% 0.19 27)",
+          "oklch(74% 0.19 27)",
+          "oklch(86% 0.19 27)",
+          "oklch(95% 0.19 27)"
+        ]
+      },
+      "alert-red-soft": {
+        "role": "secondary",
+        "displayName": "Alert Red Soft",
+        "canonical": "oklch(94.5% 0.025 15)",
+        "tonalRamp": [
+          "oklch(15% 0.025 15)",
+          "oklch(25% 0.025 15)",
+          "oklch(38% 0.025 15)",
+          "oklch(50% 0.025 15)",
+          "oklch(62% 0.025 15)",
+          "oklch(74% 0.025 15)",
+          "oklch(86% 0.025 15)",
+          "oklch(95% 0.025 15)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(19% 0.03 262)",
+        "tonalRamp": [
+          "oklch(15% 0.03 262)",
+          "oklch(25% 0.03 262)",
+          "oklch(38% 0.03 262)",
+          "oklch(50% 0.03 262)",
+          "oklch(62% 0.03 262)",
+          "oklch(74% 0.03 262)",
+          "oklch(86% 0.03 262)",
+          "oklch(95% 0.03 262)"
+        ]
+      },
+      "slate-text": {
+        "role": "neutral",
+        "displayName": "Slate Text",
+        "canonical": "oklch(44% 0.035 262)",
+        "tonalRamp": [
+          "oklch(15% 0.035 262)",
+          "oklch(25% 0.035 262)",
+          "oklch(38% 0.035 262)",
+          "oklch(50% 0.035 262)",
+          "oklch(62% 0.035 262)",
+          "oklch(74% 0.035 262)",
+          "oklch(86% 0.035 262)",
+          "oklch(95% 0.035 262)"
+        ]
+      },
+      "panel-gray-ground": {
+        "role": "neutral",
+        "displayName": "Panel-Gray Ground",
+        "canonical": "oklch(94.2% 0.008 262)",
+        "tonalRamp": [
+          "oklch(15% 0.008 262)",
+          "oklch(25% 0.008 262)",
+          "oklch(38% 0.008 262)",
+          "oklch(50% 0.008 262)",
+          "oklch(62% 0.008 262)",
+          "oklch(74% 0.008 262)",
+          "oklch(86% 0.008 262)",
+          "oklch(95% 0.008 262)"
+        ]
+      },
+      "pass-white": {
+        "role": "neutral",
+        "displayName": "Pass White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(86% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "oklch(90.8% 0.012 262)",
+        "tonalRamp": [
+          "oklch(15% 0.012 262)",
+          "oklch(25% 0.012 262)",
+          "oklch(38% 0.012 262)",
+          "oklch(50% 0.012 262)",
+          "oklch(62% 0.012 262)",
+          "oklch(74% 0.012 262)",
+          "oklch(86% 0.012 262)",
+          "oklch(95% 0.012 262)"
+        ]
+      },
+      "muted-fill": {
+        "role": "neutral",
+        "displayName": "Muted Fill",
+        "canonical": "oklch(95.6% 0.007 262)",
+        "tonalRamp": [
+          "oklch(15% 0.007 262)",
+          "oklch(25% 0.007 262)",
+          "oklch(38% 0.007 262)",
+          "oklch(50% 0.007 262)",
+          "oklch(62% 0.007 262)",
+          "oklch(74% 0.007 262)",
+          "oklch(86% 0.007 262)",
+          "oklch(95% 0.007 262)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(88.6% 0.014 262)",
+        "tonalRamp": [
+          "oklch(15% 0.014 262)",
+          "oklch(25% 0.014 262)",
+          "oklch(38% 0.014 262)",
+          "oklch(50% 0.014 262)",
+          "oklch(62% 0.014 262)",
+          "oklch(74% 0.014 262)",
+          "oklch(86% 0.014 262)",
+          "oklch(95% 0.014 262)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(84.1% 0.018 262)",
+        "tonalRamp": [
+          "oklch(15% 0.018 262)",
+          "oklch(25% 0.018 262)",
+          "oklch(38% 0.018 262)",
+          "oklch(50% 0.018 262)",
+          "oklch(62% 0.018 262)",
+          "oklch(74% 0.018 262)",
+          "oklch(86% 0.018 262)",
+          "oklch(95% 0.018 262)"
+        ]
+      },
+      "field-stroke": {
+        "role": "neutral",
+        "displayName": "Field Stroke",
+        "canonical": "oklch(66.5% 0.03 262)",
+        "tonalRamp": [
+          "oklch(15% 0.03 262)",
+          "oklch(25% 0.03 262)",
+          "oklch(38% 0.03 262)",
+          "oklch(50% 0.03 262)",
+          "oklch(62% 0.03 262)",
+          "oklch(74% 0.03 262)",
+          "oklch(86% 0.03 262)",
+          "oklch(95% 0.03 262)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page and board titles, uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Ink and blue band titles, section headers, the app name in the bar; uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Task titles on passes and departure rows."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All reading text; comments cap at 65ch."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Deadlines, times, counts and the board clock; condensed tabular."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, chips, badges, tab labels; uppercase semi-condensed."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pass-rest",
+        "value": "0 1px 2px rgb(14 21 34 / 0.08), 0 3px 10px -6px rgb(14 21 34 / 0.18)",
+        "purpose": "Lane pass cards at rest."
+      },
+      {
+        "name": "pass-hover",
+        "value": "0 2px 4px rgb(14 21 34 / 0.08), 0 10px 22px -10px rgb(14 21 34 / 0.35)",
+        "purpose": "Lane pass hover, with a 1px lift."
+      },
+      {
+        "name": "pass-dragging",
+        "value": "0 18px 40px -12px rgb(14 21 34 / 0.5)",
+        "purpose": "The dragged card, tilted 1.5deg."
+      },
+      {
+        "name": "surface",
+        "value": "0 1px 2px rgb(14 21 34 / 0.06), 0 6px 20px -10px rgb(14 21 34 / 0.22)",
+        "purpose": "Departure boards."
+      },
+      {
+        "name": "surface-pass",
+        "value": "0 1px 2px rgb(14 21 34 / 0.06), 0 8px 24px -12px rgb(14 21 34 / 0.3)",
+        "purpose": "The open task pass."
+      },
+      {
+        "name": "app-bar",
+        "value": "0 1px 0 rgb(0 0 0 / 0.2), 0 6px 18px -12px rgb(14 21 34 / 0.6)",
+        "purpose": "Under the sticky blue app bar."
+      },
+      {
+        "name": "tab-bar",
+        "value": "0 -6px 20px -14px rgb(14 21 34 / 0.5)",
+        "purpose": "Above the phone tab bar."
+      },
+      {
+        "name": "estado-current",
+        "value": "0 2px 8px -2px rgb(13 64 155 / 0.55)",
+        "purpose": "Selected estado option only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "Buttons, rows, lane drop targets, card lift."
+      },
+      {
+        "name": "estado",
+        "value": "200ms",
+        "purpose": "Estado option fill change, in place without reflow."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "All transitions and animations under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "40rem"
+      },
+      {
+        "name": "md",
+        "value": "48rem"
+      },
+      {
+        "name": "lg",
+        "value": "64rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action per surface: save, create, sign in.",
+      "html": "<button class=\"ds-btn-primary\">Nueva tarea</button>",
+      "css": ".ds-btn-primary{font-family:var(--font-barlow),'Barlow',ui-sans-serif,sans-serif;height:44px;padding:0 16px;border:1px solid transparent;border-radius:4.8px;background:var(--primary,#0d409b);color:#fff;font-size:1rem;font-weight:600;box-shadow:0 1px 2px rgb(14 21 34/0.18);cursor:pointer;transition:background-color 150ms,box-shadow 150ms,transform 150ms}.ds-btn-primary:hover{background:#0a3683}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px rgb(13 64 155/0.5)}.ds-btn-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary actions such as Ajustes; filter toggles use it at 40px and go ink when pressed.",
+      "html": "<button class=\"ds-btn-outline\">Ajustes</button> <button class=\"ds-btn-outline ds-pressed\" aria-pressed=\"true\">Vencidas</button>",
+      "css": ".ds-btn-outline{font-family:var(--font-barlow),'Barlow',ui-sans-serif,sans-serif;height:44px;padding:0 16px;border:1.5px solid rgb(14 21 34/0.85);border-radius:4.8px;background:#fff;color:#0e1522;font-size:1rem;font-weight:600;cursor:pointer;transition:background-color 150ms}.ds-btn-outline:hover{background:#eef1f5}.ds-btn-outline:focus-visible{outline:none;box-shadow:0 0 0 3px rgb(13 64 155/0.5)}.ds-btn-outline.ds-pressed{background:#0e1522;border-color:#0e1522;color:#fff}"
+    },
+    {
+      "name": "Destructive Button",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Delete and archive: red stroke on white, never a solid red fill.",
+      "html": "<button class=\"ds-btn-destructive\">Eliminar tarea</button>",
+      "css": ".ds-btn-destructive{font-family:var(--font-barlow),'Barlow',ui-sans-serif,sans-serif;height:44px;padding:0 16px;border:1.5px solid #c8031c;border-radius:4.8px;background:#fff;color:#c8031c;font-size:1rem;font-weight:600;cursor:pointer;transition:background-color 150ms}.ds-btn-destructive:hover{background:#fde8ea}.ds-btn-destructive:focus-visible{outline:none;box-shadow:0 0 0 3px rgb(224 4 32/0.3)}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "44px field with the semi-condensed uppercase label above.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Email</span><input class=\"ds-input\" placeholder=\"nombre@jcconfort.es\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:8px;max-width:320px}.ds-field-label{font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.8125rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#4a5467}.ds-input{font-family:var(--font-barlow),'Barlow',ui-sans-serif,sans-serif;height:44px;padding:4px 12px;border:1px solid #8b95a7;border-radius:4.8px;background:#fff;color:#0e1522;font-size:1rem;transition:border-color 150ms,box-shadow 150ms}.ds-input::placeholder{color:#4a5467}.ds-input:focus-visible{outline:none;border-color:#0d409b;box-shadow:0 0 0 3px rgb(13 64 155/0.5)}"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip-estado",
+      "description": "Estado, priority, vencida and sin asignar chips in the label voice.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-chip ds-estado\">Pendiente</span><span class=\"ds-chip ds-urgente\">Urgente</span><span class=\"ds-chip ds-alta\">Alta</span><span class=\"ds-chip ds-media\">Media</span><span class=\"ds-chip ds-vencida\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg> Vencida</span><span class=\"ds-chip ds-sinasignar\">Sin asignar</span></div>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px}.ds-chip{font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;display:inline-flex;align-items:center;gap:4px;height:24px;padding:0 8px;border-radius:3.6px;font-size:0.8125rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;line-height:1;white-space:nowrap}.ds-estado{background:#dde2ea;color:#0e1522}.ds-urgente,.ds-vencida{background:#e00420;color:#fff}.ds-alta{background:#0e1522;color:#fff}.ds-media{border:1.5px solid rgb(14 21 34/0.7);color:#0e1522}.ds-sinasignar{border:1.5px dashed rgb(14 21 34/0.8);color:#0e1522}"
+    },
+    {
+      "name": "App Bar",
+      "kind": "nav",
+      "refersTo": "app-bar",
+      "description": "Sticky blue bar with the logo plate, app name and desktop nav.",
+      "html": "<header class=\"ds-appbar\"><span class=\"ds-logo\">JC</span><span class=\"ds-appname\">JC Confort Entregas</span><nav class=\"ds-nav\"><a class=\"ds-nav-link ds-active\" href=\"#\">Tableros</a><a class=\"ds-nav-link\" href=\"#\">Mis tareas</a></nav></header>",
+      "css": ".ds-appbar{display:flex;align-items:center;gap:12px;height:64px;padding:0 24px;background:#0d409b;color:#fff;box-shadow:0 1px 0 rgb(0 0 0/0.2),0 6px 18px -12px rgb(14 21 34/0.6)}.ds-logo{display:flex;align-items:center;justify-content:center;height:44px;width:30px;border-radius:3.6px;background:#fff;color:#0d409b;font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-weight:700}.ds-appname{font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-size:1.25rem;font-weight:700;letter-spacing:0.02em;text-transform:uppercase}.ds-nav{display:flex;align-self:stretch;margin-left:16px;gap:4px}.ds-nav-link{position:relative;display:flex;align-items:center;padding:0 12px;font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.9375rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:rgb(255 255 255/0.75);text-decoration:none;transition:color 150ms}.ds-nav-link:hover,.ds-nav-link.ds-active{color:#fff}.ds-nav-link.ds-active::after{content:'';position:absolute;left:12px;right:12px;bottom:0;height:4px;border-radius:3.6px 3.6px 0 0;background:#fff}.ds-nav-link:focus-visible{outline:none;background:rgb(255 255 255/0.12)}"
+    },
+    {
+      "name": "Phone Tab Bar",
+      "kind": "nav",
+      "refersTo": "tab-bar",
+      "description": "Four tabs under the thumb on phones; active tab in blue with a top bar.",
+      "html": "<nav class=\"ds-tabbar\"><a class=\"ds-tab\" href=\"#\">Tableros</a><a class=\"ds-tab ds-active\" href=\"#\">Mis tareas</a><a class=\"ds-tab\" href=\"#\">Avisos<span class=\"ds-unread\">1</span></a><a class=\"ds-tab\" href=\"#\">Perfil</a></nav>",
+      "css": ".ds-tabbar{display:grid;grid-template-columns:repeat(4,1fr);height:68px;max-width:420px;background:#fff;border-top:1px solid #c3cad6;box-shadow:0 -6px 20px -14px rgb(14 21 34/0.5)}.ds-tab{position:relative;display:flex;align-items:center;justify-content:center;gap:4px;font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.8125rem;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:#4a5467;text-decoration:none}.ds-tab.ds-active{color:#0d409b}.ds-tab.ds-active::before{content:'';position:absolute;left:20px;right:20px;top:0;height:4px;border-radius:0 0 3.6px 3.6px;background:#0d409b}.ds-tab:focus-visible{outline:none;background:#e3eaf6}.ds-unread{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 4px;border-radius:3.6px;background:#e00420;color:#fff;font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-weight:700}"
+    },
+    {
+      "name": "Pass Card",
+      "kind": "card",
+      "refersTo": "pass-card",
+      "description": "A task in a lane: head, tear line with punched notches, stub with assignee and deadline.",
+      "html": "<div class=\"ds-lane\"><article class=\"ds-pass\"><p class=\"ds-pass-late\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg> Vencida</p><div class=\"ds-pass-head\"><span class=\"ds-chip-u\">Urgente</span><p class=\"ds-pass-title\">Montar armario</p></div><div class=\"ds-tear\"></div><dl class=\"ds-stub\"><div><dt>Asignada a</dt><dd>Luis Prueba</dd></div><div class=\"ds-due\"><dt>Vence</dt><dd class=\"ds-fig ds-late\">Ayer 23:00</dd></div></dl></article></div>",
+      "css": ".ds-lane{padding:10px;background:#dde2ea;border-radius:6px;max-width:300px;--notch:#dde2ea}.ds-pass{overflow:hidden;border-radius:4.8px;background:#fff;color:#0e1522;font-family:var(--font-barlow),'Barlow',ui-sans-serif,sans-serif;box-shadow:0 1px 2px rgb(14 21 34/0.08),0 3px 10px -6px rgb(14 21 34/0.18),0 0 0 1px rgb(14 21 34/0.1);cursor:pointer;transition:box-shadow 150ms,transform 150ms}.ds-pass:hover{transform:translateY(-1px);box-shadow:0 2px 4px rgb(14 21 34/0.08),0 10px 22px -10px rgb(14 21 34/0.35),0 0 0 1px rgb(14 21 34/0.1)}.ds-pass-late{display:flex;align-items:center;gap:6px;margin:0;padding:4px 14px;background:#e00420;color:#fff;font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.8125rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase}.ds-pass-head{display:flex;flex-direction:column;gap:8px;padding:12px 14px 14px}.ds-chip-u{align-self:flex-start;display:inline-flex;align-items:center;height:24px;padding:0 8px;border-radius:3.6px;background:#e00420;color:#fff;font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.8125rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}.ds-pass-title{margin:0;font-size:1.0625rem;font-weight:600;line-height:1.375}.ds-tear{position:relative;height:0;margin:0 14px;border-top:2px dashed #c3cad6}.ds-tear::before,.ds-tear::after{content:'';position:absolute;top:-9px;width:16px;height:16px;border-radius:999px;background:var(--notch);box-shadow:inset 0 0 0 1px #d3d9e2}.ds-tear::before{left:-23px;clip-path:inset(0 0 0 50%)}.ds-tear::after{right:-23px;clip-path:inset(0 50% 0 0)}.ds-stub{display:grid;grid-template-columns:1fr auto;gap:12px;margin:0;padding:10px 14px 12px}.ds-stub dt{font-family:var(--font-barlow-semi),'Barlow Semi Condensed','Barlow',sans-serif;font-size:0.8125rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#4a5467}.ds-stub dd{margin:4px 0 0;font-size:0.9375rem;font-weight:500}.ds-due{display:flex;flex-direction:column;align-items:flex-end;padding-left:12px;border-left:1px solid #d3d9e2}.ds-fig{font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-size:1.0625rem;font-weight:600;text-transform:uppercase;font-variant-numeric:tabular-nums}.ds-late{color:#c8031c}"
+    },
+    {
+      "name": "Lane Header",
+      "kind": "custom",
+      "refersTo": "lane-header",
+      "description": "Ink band opening each lane: condensed name, count box, red overdue box.",
+      "html": "<header class=\"ds-lanehead\"><h2>Bloqueada</h2><span class=\"ds-count\">1</span><span class=\"ds-over\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg>1</span></header>",
+      "css": ".ds-lanehead{display:flex;align-items:center;gap:10px;min-height:56px;max-width:300px;padding:8px 8px 8px 16px;background:#0e1522;color:#fff;border-radius:6px 6px 0 0}.ds-lanehead h2{margin:0;font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-size:1.25rem;font-weight:700;letter-spacing:0.03em;text-transform:uppercase;line-height:1}.ds-count,.ds-over{display:inline-flex;align-items:center;gap:4px;height:28px;min-width:28px;justify-content:center;padding:0 6px;border-radius:3.6px;font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-size:1.125rem;font-weight:600;font-variant-numeric:tabular-nums}.ds-count{background:rgb(255 255 255/0.14)}.ds-over{background:#e00420}"
+    },
+    {
+      "name": "Estado Options",
+      "kind": "custom",
+      "refersTo": "estado-option",
+      "description": "The open pass's estado grid: one large option per estado, current one solid blue.",
+      "html": "<div class=\"ds-estados\" role=\"radiogroup\"><button class=\"ds-estado-opt\" role=\"radio\" aria-checked=\"false\">Pendiente</button><button class=\"ds-estado-opt ds-current\" role=\"radio\" aria-checked=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 6 9 17l-5-5\"/></svg>Bloqueada</button></div>",
+      "css": ".ds-estados{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:420px}.ds-estado-opt{display:flex;align-items:center;justify-content:center;gap:6px;min-height:52px;padding:8px 12px;border:1.5px solid #c3cad6;border-radius:4.8px;background:#fff;color:#0e1522;font-family:var(--font-barlow-condensed),'Barlow Condensed','Barlow',sans-serif;font-size:1.125rem;font-weight:600;letter-spacing:0.02em;text-transform:uppercase;cursor:pointer;transition:background-color 200ms,border-color 200ms,color 200ms,box-shadow 200ms}.ds-estado-opt:hover{border-color:#0d409b;background:#e3eaf6}.ds-estado-opt:focus-visible{outline:none;box-shadow:0 0 0 3px rgb(13 64 155/0.5)}.ds-estado-opt.ds-current{border-color:#0d409b;background:#0d409b;color:#fff;box-shadow:0 2px 8px -2px rgb(13 64 155/0.55)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Delivery Pass",
+    "overview": "Every task is a pase de reparto: a white pass with a printed head, a perforated tear line, and a stub carrying who it is for and when it is due. Every list is a departures board: an ink header, grouped rows ranked by time, fixed columns on desktop. The app is light only, built for warehouse strip lights and office daylight, mostly on phones, and for older, low-confidence users: nothing is small, nothing is dense, every figure is tabular.\n\nThe world is one family in three widths (Barlow, Barlow Semi Condensed, Barlow Condensed) over a cool panel-gray ground, with two brand colors that each carry exactly one law. JC blue is the company: the app bar, the pass head in detail view, and every primary action. JC red means something is wrong. Everything else is ink, slate and gray. The rejected reference is the stock rounded-card Trello board with pastel badges.",
+    "keyCharacteristics": [
+      "White passes on a panel-gray ground, with ink header bands on lanes and boards.",
+      "Perforated tear line with punched semicircular notches between a pass's head and stub.",
+      "Uppercase condensed voice for titles, estados, figures and codes; uppercase semi-condensed for field labels; plain Barlow for reading.",
+      "Square-ish corners (3.6px to 6px), hairline rules, low ambient shadows.",
+      "Large targets (44px controls) and a 16px body floor."
+    ],
+    "rules": [
+      {
+        "name": "The One Color, One Law Rule",
+        "body": "Blue means JC Confort or \"do this\"; red means something is wrong (vencida, urgente, unread). Red is never decorative and never a brand accent. Estados are admin-defined, so no estado name (including bloqueada) is ever colored red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Band Rule",
+        "body": "Boards, lanes and departure lists open with an ink band carrying their name in condensed uppercase and their count as a figure. The blue band belongs only to the app bar, the auth header and the open task pass.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Widths Rule",
+        "body": "Condensed for what is printed on the pass, semi-condensed for what names a field, normal width for what is read. Do not introduce another family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Nothing Small Rule",
+        "body": "Body never drops below 1rem and no label drops below 0.8125rem.",
+        "section": "typography"
+      },
+      {
+        "name": "The Band Before Shadow Rule",
+        "body": "Hierarchy is carried by header bands and the tear line, not by stacking shadows. A new surface gets an ink or white band, not a deeper shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every task on a white pass with the tear line between its head and its stub.",
+      "Do open every board, lane and list with an ink band and a condensed count.",
+      "Do set dates, times, counts and codes as condensed tabular figures, and keep tabular numerals everywhere.",
+      "Do keep controls at 44px tall and body text at 1rem or larger.",
+      "Do rank lists by time and group them under Vencidas, Hoy, Mañana, Próximas, Sin fecha.",
+      "Do change estado in place: the chosen option fills blue without moving anything else."
+    ],
+    "donts": [
+      "Don't use red for anything that is not wrong or unread; never color an admin-defined estado red.",
+      "Don't use blue for decoration or section color; it is the company or an action.",
+      "Don't round corners past 6px on containers or use pill-shaped chips.",
+      "Don't use pastel badge colors; chips are panel gray, ink, outline or alert red.",
+      "Don't add a dark theme; the app is light only for warehouse lighting."
+    ]
+  }
+}

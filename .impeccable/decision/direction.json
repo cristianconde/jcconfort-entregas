@@ -1,0 +1,131 @@
+{
+  "title": "Elige el mundo visual",
+  "question": "The roll assigned El Albarán. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "El Albarán",
+      "kicker": "THE ROLL",
+      "lineage": "Printed delivery notes (albaranes) and order pads from the shop counter",
+      "thesis": "Every task is a numbered delivery note, filled in blue ink and stamped when its state changes.",
+      "palette": ["#0d409b", "#ffffff", "#eef2f9", "#1a1d24", "#e00420"],
+      "materials": ["printed form rules and labeled fields", "rubber-stamp state marks", "numbered slip headers"],
+      "viewport": "Phone, Mis tareas: a stack of slips ordered by deadline under a HOY rule; each slip has Nº, a large title, labeled fields and a full-width status button at its foot.",
+      "risk": "Tips into skeuomorphic pastiche if the rules and stamps are decoration instead of state.",
+      "raised": [
+        { "from": "challenger-hypercard", "raise": "Fields are edited in place on the slip: reading it and filling it in are the same object." },
+        { "from": "challenger-rain-garden", "raise": "Each color keeps exactly one law: blue is ink and action, red is only lateness and urgency." },
+        { "from": "challenger-deep-dive", "raise": "One vertical time axis with a HOY rule orders Mis tareas; everything above the rule is late." },
+        { "from": "challenger-streaming", "raise": "On phones the board's columns become snap rails, one estado per screen with the next peeking in." },
+        { "from": "challenger-split-flap", "raise": "A state change re-stamps the slip in place; the grid never reflows." }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "La Placa",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "The JC Confort badge and shop sign: blue frame, red base band",
+      "thesis": "The logo's framed badge becomes the app's structure: blue-framed panels, a red band only where something is wrong.",
+      "palette": ["#0d409b", "#ffffff", "#e00420", "#f3f5f9"],
+      "materials": ["thick blue frames", "serif wordmark band", "solid color fields"],
+      "viewport": "Phone: a blue framed header plate with the badge, then task plates with a thick left frame colored by estado.",
+      "risk": "Familiar: the closest to a straight brand skin, and where most restyles in this category land."
+    },
+    {
+      "id": "challenger-boarding-pass",
+      "label": "Pase de reparto",
+      "verdict": "competitive",
+      "lineage": "Boarding pass and departures gate board",
+      "thesis": "Each task is a segmented pass; Mis tareas is a departures board ranked by deadline.",
+      "palette": ["#ffffff", "#2a2f3a", "#0d409b", "#e00420"],
+      "materials": ["segmented pass with tear line", "tabular figures", "fixed-column board rows"],
+      "viewport": "Phone: a board of my tasks ranked by time; a changed row glows its alert color until seen.",
+      "case": "Very clear for scanning by deadline; loses on identification because the team lives with albaranes, not airports.",
+      "risk": "Reads as a travel app when it is not tied to deliveries.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board.webp"
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "Panel de salidas",
+      "verdict": "declined",
+      "lineage": "Rail concourse split-flap board",
+      "thesis": "Tasks as departure rows with flipping letters.",
+      "palette": ["#111111", "#ffffff", "#f2a900"],
+      "materials": ["matte black flaps", "brushed steel"],
+      "viewport": "Dark board of task rows.",
+      "case": "Dark, theatrical ground fights older readers and the family-shop feel.",
+      "risk": "Flashy.",
+      "kept": "State restyles a row without breaking the grid.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp"
+    },
+    {
+      "id": "challenger-hypercard",
+      "label": "HyperCard stack",
+      "verdict": "declined",
+      "lineage": "HyperCard shoebox stacks",
+      "thesis": "Cards you browse and author in one mode.",
+      "palette": ["#000000", "#ffffff"],
+      "materials": ["one-bit dither", "painted buttons"],
+      "viewport": "A fixed card per task.",
+      "case": "One-bit black and white erases the brand's blue and red.",
+      "risk": "Retro novelty.",
+      "kept": "Read and edit are the same object: in-place editing.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-hypercard-stack-shoebox-hero.webp"
+    },
+    {
+      "id": "challenger-rain-garden",
+      "label": "Gravity rain garden",
+      "verdict": "declined",
+      "lineage": "Surreal gravity garden",
+      "thesis": "Color codes the direction of every force.",
+      "palette": ["#56655c", "#2f5fd0", "#d0342c"],
+      "materials": ["rain", "bent type"],
+      "viewport": "A garden map.",
+      "case": "No task clarity and nothing the team recognizes.",
+      "risk": "Unusable as a tool.",
+      "kept": "Every color obeys exactly one law.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-gravity-rain-garden-hero.webp"
+    },
+    {
+      "id": "challenger-deep-dive",
+      "label": "Deep dive",
+      "verdict": "declined",
+      "lineage": "Technical dive profile",
+      "thesis": "One vertical depth axis rules every line.",
+      "palette": ["#07203f", "#6fe3f0", "#f4f7fa"],
+      "materials": ["dive-computer digits", "marine snow"],
+      "viewport": "A dive profile.",
+      "case": "Dark oceanic world has no link to a furniture shop.",
+      "risk": "Moody and hard to read.",
+      "kept": "One vertical time axis orders everything.",
+      "hero": "https://impeccable.style/worlds/cards/rivers-tides-ocean-depths-mesophotic-deep-dive-hero.webp"
+    },
+    {
+      "id": "challenger-streaming",
+      "label": "Streaming wall",
+      "verdict": "declined",
+      "lineage": "Streaming catalog rows",
+      "thesis": "Horizontal rails of poster tiles.",
+      "palette": ["#141414", "#e50914", "#ffffff"],
+      "materials": ["poster art", "focus lift"],
+      "viewport": "Rows of tiles.",
+      "case": "Tasks have no artwork; dark entertainment feel is wrong.",
+      "risk": "Startup-flashy.",
+      "kept": "Snap rails: one column per screen on phones.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-streaming-title-card-wall-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code", "toggle": false },
+  "canon": true,
+  "canonCard": {
+    "label": "El estándar",
+    "thesis": "A clean Trello-style board in brand blue, executed impeccably.",
+    "palette": ["#ffffff", "#111827", "#0d409b"],
+    "materials": ["clean grid", "rounded cards"],
+    "viewport": "Top bar with logo, columns of rounded cards.",
+    "risk": "Indistinguishable from any task app by design."
+  },
+  "steer": true
+}
